@@ -18,6 +18,9 @@ if ! command -v texlua > /dev/null; then
   # Install a minimal system
   ./install-tl --profile ../.github/ci/texlive-ubuntu.profile --repository $REPO
   cd ..
+else
+  # Update TeX Live install but add nothing new
+  tlmgr update --self --all --no-auto-install
 fi
 
 # Install TeX Live packages
@@ -73,6 +76,3 @@ tlmgr install           \
   xkeyval               \
   xstring               \
   zhnumber
-
-# Update TeX Live install but add nothing new
-tlmgr update --self --all --no-auto-install
