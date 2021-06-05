@@ -1,8 +1,8 @@
 # SJTUThesis 示例模板
 
-[![Build Status](https://travis-ci.org/sjtug/SJTUThesis.svg?branch=master)](https://travis-ci.org/sjtug/SJTUThesis)
+[![Build Status](https://github.com/sjtug/SJTUThesis/actions/workflows/build.yml/badge.svg)](https://github.com/sjtug/SJTUThesis/actions)
 [![SJTUTeX](https://img.shields.io/badge/SJTUTheis-v1.0.0rc7-green.svg)](https://github.com/sjtug/SJTUTeX) 
-[![Join the chat at https://gitter.im/sjtug/SJTUThesis](https://badges.gitter.im/sjtug/SJTUThesis.svg)](https://gitter.im/sjtug/SJTUThesis?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join Discussions](https://img.shields.io/github/discussions/sjtug/SJTUThesis)](https://github.com/sjtug/SJTUThesis/discussions)
 
 ## 欢迎使用上海交通大学论文模板
 
@@ -15,11 +15,13 @@
 
 ### 下载模版
 
-普通用户可以直接 `clone` 或者在 [Github](https://github.com/sjtug/SJTUThesis) 页面下载仓库代码。
+普通用户可以直接 `clone` 或者下载 [master.zip](https://github.com/sjtug/SJTUThesis/archive/refs/heads/master.zip)。
 
 ```bash
 git clone https://github.com/sjtug/SJTUThesis.git
 ```
+
+稳定版可以在 [v1.0.0 发布页](https://github.com/sjtug/SJTUThesis/releases/tag/v1.0.0) 下载。
 
 ### Overleaf
 
@@ -27,7 +29,7 @@ git clone https://github.com/sjtug/SJTUThesis.git
 
 [![Overleaf](https://img.shields.io/badge/overleaf-sjtuthesis-green.svg)](https://www.overleaf.com/latex/templates/sjtuthesis-latex-thesis-template-for-shanghai-jiao-tong-university/mkdwbyjbtfgg?r=b3b31f49&rm=d&rs=b)
 
-如果需要使用最新版 SJTUThesis，可以先下载 [压缩包](https://github.com/sjtug/SJTUThesis/archive/refs/heads/master.zip)，然后上传至 Overleaf 平台。Overleaf 默认使用 pdflatex 编译，您需要设置使用 XeLaTeX 编译器。
+如果需要使用最新版 SJTUThesis，可以先下载 [最新版压缩包](https://github.com/sjtug/SJTUThesis/archive/refs/heads/master.zip) 或 [v1.0.0](https://github.com/sjtug/SJTUThesis/releases/tag/v1.0.0)，然后上传至 Overleaf 平台。Overleaf 默认使用 pdflatex 编译，您需要设置使用 XeLaTeX 编译器。
 
 ## 模板使用
 
